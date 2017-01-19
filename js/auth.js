@@ -5,7 +5,7 @@ qwebirc.auth.loggedin = function() {
 }
 
 qwebirc.auth.enabled = function() {
-  return false;
+  return true;
 }
 
 qwebirc.auth.quakeNetAuth = function() {
@@ -17,5 +17,5 @@ qwebirc.auth.passAuth = function() {
 }
 
 qwebirc.auth.bouncerAuth = function() {
-  return false;
+  return true;
 }
