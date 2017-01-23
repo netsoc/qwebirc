@@ -19,7 +19,6 @@ from qwebirc.config_options import *
 # OPTION: IRCPORT
 #         Port of IRC server to connect to.
 IRCSERVER, IRCPORT = "znc.netsoc.tcd.ie", 6697
-SSLPORT = 6697
 
 # OPTION: REALNAME
 #         The realname field of IRC clients will be set to this value.
